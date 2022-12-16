@@ -10,7 +10,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
-
 }
 
 html{
@@ -23,7 +22,9 @@ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    cursor: crosshair;
 }
+
 
 body{
     background-color: var(--background-color);
@@ -102,6 +103,12 @@ body{
 #sub-heading{
     color: var(--extra-colorTwo);
     font-size: 2rem;
+}
+
+#remarks:hover,
+#sub-heading:hover{
+    text-shadow: 0 0 20px #17f1d1;
+    transition: 200ms ease-in-out;
 }
 
 /* section one */
