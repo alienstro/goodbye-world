@@ -120,3 +120,15 @@ body{
         font-size: 8em;
     }
 }   
+
+@media (max-width: 780px){
+    #main-header{
+        font-size: 5em;
+    }
+    
+    #main-header,
+    #remarks,
+    #sub-heading{
+        margin-left: 2rem;
+    }
+}   
