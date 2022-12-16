@@ -1,0 +1,111 @@
+:root{
+    --text-color: #FAFAF6;
+    --background-color: #1D1D1F;
+    --extra-colorOne: #ffd074; 
+    --extra-colorTwo: #17f1d1;  
+    --extra-colorThree: #A374FF; 
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* navigation bar */
+.navigation{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #1d1d1faf;
+    backdrop-filter: blur(8px);
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.8em;
+    transition: 200ms ease-in-out;
+    font-weight: 500;
+    padding: 1em;
+
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 10px;
+    padding: 1.2em;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* Header */
+
+#remarks{
+    font-size: 1.5em;
+}
+
+#bonjour{
+    color: var(--extra-colorOne);
+}
+
+#konichiwa{
+    color: var(--extra-colorThree);
+}
+
+#main-header{
+    font-size: 12em;
+    background-image: url("../images/title-background.gif");
+    background-repeat: none;
+    background-position: -10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sub-heading{
+    color: var(--extra-colorTwo);
+    font-size: 2rem;
+}
+
+/* section one */
+.sec-one{
+    height: 100vh;
+}
+
