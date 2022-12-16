@@ -132,3 +132,19 @@ body{
         margin-left: 2rem;
     }
 }   
+
+@media (max-width: 320px){
+    #main-header{
+        font-size: 3.5em;
+    }
+    
+    #remarks{
+        font-size: 1em;
+    }
+    
+    #main-header,
+    #remarks,
+    #sub-heading{
+        margin-left: 1rem;
+    }
+}   
