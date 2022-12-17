@@ -108,13 +108,11 @@ body{
 
 #bonjour{
     color: var(--extra-colorOne);
-    transition: 300ms ease-in-out;
 
 }
 
 #konichiwa{
     color: var(--extra-colorThree);
-    transition: 300ms ease-in-out;
 
 }
 
