@@ -86,7 +86,6 @@ body{
     align-items: center;
     height: 100%;
     margin: 1em;
-    
 }
 
 #logo > img{
@@ -118,9 +117,8 @@ body{
 
 #main-header{
     font-size: 12em;
-    background-image: url("../images/title-background-2.gif");
-    background-repeat: none;
-    background-position: -10px;
+    background-image: url("../images/title-background-3.gif");
+    background-position: -100px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
