@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goodbye World! | Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="static/style.css">
     <link rel="icon" href="./images/dinosaur.png">
+
+    <script src="./scripts/carousel.js" defer></script>
 </head>
+
 <body>
     <header>
         <nav id="navigation">
@@ -20,21 +27,57 @@
                 <li class="nav-list"><a href="#" class="nav-link">TEAM</a></li>
             </ul>
         </nav>
-        <div class="header-content" id="home">
+        
+    </header>
+    <main id="main-content">
+        <section class="header-content" id="home">
             <div class="title-container">
-                <p id="remarks"><span id="konichiwa">KON'NICHIWA</span> and <span id="bonjour">BONJOUR</span>, we are the</p>
+                <p id="remarks"><span id="konichiwa">KON'NICHIWA</span> and <span id="bonjour">BONJOUR</span>, we are
+                    the</p>
                 <h1 id="main-header">GOODBYE, WORLD!&#129430;</h1>
                 <h2 id="sub-heading">さようなら、世界！</h2>
                 <button onclick="alert('rawrrrrrrrrrrrrrrr')" id="shout">RAWR</button>
             </div>
-        </div>
-    </header>
-    <main id="main-content">
-        <section class="sec-one" id="about">
+        </section>
+        <section class="about-content" id="about">
+
+            <div class="about-label">
+                ABOUT TEAM
+            </div>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="./images/carousel/1.png" style="width: 250px;">
+                    <div class="text">A group of passionate individuals who seeks to learn and explore the complex yet exciting field of computer science. 
+                        From web and software development to solving complex algorithms, we aim to discover the rich world of computer science.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/carousel/2.png" style="width:250px">
+                    <div class="text">Our group believes in three fundamental values — competence, innovation, and collaboration. 
+                        For we do not settle for the bare minimum but strive to do our fullest.
+                        From school, professional, or personal projects, we apply these values in everything we do.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./images/carousel/3.png" style="width:250px">
+                    <div class="text">One of our goals is to create a community where like-minded people can come to learn, share, 
+                        and grow regardless of one's skills and experience.
+                        We encourage you to become a part of our ever-growing community.</div>
+                </div>
+                <!-- Next and previous buttons -->
+            </div>
+            <div class="clickers"> 
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
 
         </section>
 
     </main>
 
 </body>
+
 </html>
